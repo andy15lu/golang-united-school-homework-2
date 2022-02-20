@@ -9,7 +9,9 @@ import "math"
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 type side int;
-
+const SidesCircle side = 0
+const SidesTriangle side = 3
+const SidesSquare side = 4
 func CalcSquare(sideLen float64, sidesNum side) float64 {
 	var square float64;
 	switch (sidesNum) {
